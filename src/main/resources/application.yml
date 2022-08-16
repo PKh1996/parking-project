@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/veh_park  //آدرس دیتابیس
+    username: postgres
+    password: 9317021110
+
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database: POSTGRESQL
+    hibernate:
+      //هروقت پروژه بالا اومد جدولو آپدیت کن.
+      ddl-auto: update
